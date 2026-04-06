@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beat the CityCat | Brisbane Running Challenge</title>
+    <style>
+        body { 
+            font-family: 'Courier New', Courier, monospace; 
+            margin: 0; padding: 0; 
+            background: #0f0f0f; color: #d1d1d1; 
+            line-height: 1.6;
+        }
+        header { 
+            padding: 60px 20px; text-align: center; 
+            border-bottom: 1px solid #222; background: #151515;
+        }
+        h1 { margin: 0; color: #fff; letter-spacing: 2px; }
+        .subtitle { color: #888; margin-top: 10px; font-size: 0.9rem; }
+        
+        .container {
+            max-width: 1100px; margin: 40px auto; padding: 0 20px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+            gap: 30px;
+        }
+
+        @media (max-width: 500px) {
+            .grid { grid-template-columns: 1fr; }
+        }
+
+        .card {
+            background: #1a1a1a; border: 1px solid #333;
+            border-radius: 4px; padding: 20px;
+            transition: border-color 0.3s ease;
+        }
+        .card:hover { border-color: #555; }
+        .card h2 { margin-top: 0; font-size: 1.1rem; color: #eee; border-left: 3px solid #444; padding-left: 10px; }
+        
+        .meta { font-size: 0.85rem; color: #999; margin-bottom: 15px; }
+        .meta span { color: #00ff41; font-weight: bold; }
+
+        .strava-embed { width: 100%; min-height: 450px; background: #222; border-radius: 2px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>BEAT THE CITYCAT</h1>
+        <div class="subtitle">1 Machine. 84 Minutes. Brisbane River.</div>
+    </header>
+
+    <div class="container">
+        <div class="grid">
+            
+            <div class="card">
+                <h2>LEVEL 0: UNRESTRICTED</h2>
+                <div class="meta">Dist: ~12.9 km | Pace: <span>6:30 min/km</span></div>
+                <div class="strava-embed">
+                    <div class="strava-embed-placeholder" data-embed-type="route" data-embed-id="3476040299736767110" data-units="metric" data-label="false"></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>LEVEL 1: AGGRESSIVE CUTS</h2>
+                <div class="meta">Dist: ~15.6 km | Pace: <span>5:23 min/km</span></div>
+                <div class="strava-embed">
+                    <div class="strava-embed-placeholder" data-embed-type="route" data-embed-id="3136823302325646344" data-units="metric" data-label="false"></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>LEVEL 2: MODERATE</h2>
+                <div class="meta">Dist: ~18.0 km | Pace: <span>4:40 min/km</span></div>
+                <div class="strava-embed">
+                    <div class="strava-embed-placeholder" data-embed-type="route" data-embed-id="3144490561139685384" data-units="metric" data-label="false"></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>LEVEL 3: THE PURIST</h2>
+                <div class="meta">Dist: ~21.9 km | Pace: <span>3:50 min/km</span></div>
+                <div class="strava-embed">
+                    <div class="strava-embed-placeholder" data-embed-type="route" data-embed-id="3136820406964642010" data-units="metric" data-label="false"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://strava-embeds.com/embed.js"></script>
+</body>
+</html>
