@@ -1,60 +1,79 @@
-\# Beat the CityCat ⛴️ vs 🏃
+# ⛴️ Beat the CityCat 🏃
 
+Can you outrun Brisbane's CityCat?
 
+The challenge is simple:
 
-\## The Thesis
+> Leave **UQ St Lucia Ferry Terminal** at the same time as the CityCat and reach **North Shore Hamilton Ferry Terminal** before the ferry arrives.
 
-The Brisbane CityCat takes exactly \*\*84 minutes\*\* (1h 24m) to travel from the \*\*UQ St Lucia\*\* terminal to \*\*North Shore Hamilton\*\*. 
+The CityCat takes **84 minutes** to complete this journey.
 
+Your objective is to beat that fixed time while choosing how faithfully you'll follow the Brisbane River.
 
+---
 
-This is a static temporal constraint. The challenge is to cover the distance on foot and arrive at the final terminal before the ferry. The clock is fixed; the difficulty scales based on geographic adherence to the river's shape.
+## The Concept
 
+The CityCat follows the river.
 
+You don't have to.
 
-\## Geographic Scaling (The Pockets)
+Every shortcut across the city makes the challenge easier, while every river bend you choose to follow makes it harder.
 
-The difficulty is defined by how many river "pockets" (peninsulas) you choose to run or skip:
+The course is therefore divided into four levels of increasing geographic fidelity.
 
-\* \*\*City Pocket:\*\* The deep bend around Gardens Point and the CBD.
+---
 
-\* \*\*New Farm Pocket:\*\* The long curve around Merthyr Rd and New Farm Park.
+## Levels
 
+| Level | Name         | River adherence                                 | Distance | Required pace |
+| ----: | ------------ | ----------------------------------------------- | -------: | ------------: |
+| **0** | Unrestricted | Ignore both the CBD and New Farm bends          | ~12.9 km |  **6:30 /km** |
+| **1** | Aggressive   | Stay on the north bank, skip both major pockets | ~15.6 km |  **5:23 /km** |
+| **2** | Moderate     | Follow the CBD, skip New Farm                   | ~18.0 km |  **4:40 /km** |
+| **3** | The Purist   | Follow the river all the way                    | ~21.9 km |  **3:50 /km** |
 
+---
 
-\## The Levels
+## Routes
 
+| Level | Strava Route                                      |
+| ----: | ------------------------------------------------- |
+| **0** | https://www.strava.com/routes/3476040299736767110  |
+| **1** | https://www.strava.com/routes/3136823302325646344 |
+| **2** | https://www.strava.com/routes/3144490561139685384  |
+| **3** | https://www.strava.com/routes/3136820406964642010  |
 
+---
 
-| Level | Concept | Pockets Skipped | Distance | Critical Pace |
+## Rules
 
-| :--- | :--- | :--- | :--- | :--- |
+* ⏱️ Maximum time: **84:00**
+* 🚤 Start when the CityCat departs **UQ St Lucia Ferry Terminal**
+* 🏁 Finish at **North Shore Hamilton Ferry Terminal**
+* 🏃 Self-supported effort
+* 🚦 Follow normal pedestrian and traffic rules
+* 📍 Navigation is your responsibility
+* 📈 Validation requires a public Strava activity or GPX track
 
-| \*\*0\*\* | \*\*Unrestricted\*\* | City \& New Farm (Shortest Path) | \~12.9 km | 6:30 min/km |
+---
 
-| \*\*1\*\* | \*\*Aggressive\*\* | City \& New Farm (North Bank only) | \~15.6 km | 5:23 min/km |
+## Why?
 
-| \*\*2\*\* | \*\*Moderate\*\* | New Farm only | \~18.0 km | 4:40 min/km |
+This challenge isn't about running the fastest route.
 
-| \*\*3\*\* | \*\*The Purist\*\* | None (Waterline adherence) | \~21.9 km | 3:50 min/km |
+It's about trading **distance** for **speed**.
 
+How closely can you shadow the Brisbane River and still beat a ferry that never changes its pace?
 
+---
 
-\## Rules
+## Results
 
-1\. \*\*The Clock:\*\* 1:24:00 (84 minutes) maximum.
+Think you can beat the CityCat?
 
-2\. \*\*Start:\*\* UQ St Lucia Ferry Terminal.
+Open a pull request, issue, or simply share your Strava activity.
 
-3\. \*\*Finish:\*\* North Shore Hamilton Ferry Terminal.
+---
 
-4\. \*\*Format:\*\* Self-sustained effort. Navigate traffic, pedestrians, and urban obstacles.
-
-5\. \*\*Validation:\*\* Public Strava activity or GPX track.
-
-
-
-\---
-
-\*Created by Raimundo Sanchez (raimun2)\*
-
+Created by **Raimundo Sanchez (@raimun2)**
